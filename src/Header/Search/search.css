@@ -1,0 +1,9 @@
+.search > img {
+  height: 40px;
+}
+
+.search {
+  display: flex;
+  flex: 0.6;
+  align-items: center;
+}

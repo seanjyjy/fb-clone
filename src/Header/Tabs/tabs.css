@@ -1,0 +1,39 @@
+.tabs {
+  display: flex;
+  flex: 3;
+  justify-content: center;
+}
+
+.tabs-icon > .MuiSvgIcon-root {
+  color: #b0b3b8;
+  font-size: 32px;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+
+.tabs-icon {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0 50px;
+  height: 53px;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+
+.tabs-icon:hover {
+  border-bottom: none;
+  padding: 0 50px;
+  border-radius: 10px;
+  background-color: #404041;
+  align-items: center;
+  height: 53px;
+}
+
+.tabs-icon--active > .MuiSvgIcon-root {
+  color: #2d88ff;
+}
+
+.tabs-icon--active {
+  border-bottom: 3px solid #2d88ff;
+}

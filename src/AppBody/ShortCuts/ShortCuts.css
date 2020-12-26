@@ -1,0 +1,4 @@
+.short-cuts {
+  transform: translateY(15px);
+  overflow-y: auto;
+}

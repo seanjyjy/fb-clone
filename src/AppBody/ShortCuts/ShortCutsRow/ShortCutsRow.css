@@ -1,0 +1,45 @@
+.short-cuts-row {
+  display: flex;
+  align-items: center;
+  padding: 2px 15px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  width: 365px;
+  transition: 0.3s ease-out;
+  outline: none;
+  height: 53px;
+}
+
+.short-cuts-row:hover {
+  border-radius: 10px;
+  background-color: #404041;
+}
+
+.short-cuts-row > p {
+  margin-left: 10px;
+  color: #e4e6eb;
+  font-family: Helvetica;
+}
+
+.short-cuts-row > img {
+  image-rendering: -moz-crisp-edges; /* Firefox */
+  image-rendering: -o-crisp-edges; /* Opera */
+  image-rendering: -webkit-optimize-contrast; /* This helps to make the image clearer even though it is being underlined */
+  -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
+}
+
+.short-cuts-icon {
+  border-radius: 100%;
+  background-color: #363737;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.short-cuts-icon > .MuiSvgIcon-root {
+  font-size: xx-large;
+  color: white;
+}

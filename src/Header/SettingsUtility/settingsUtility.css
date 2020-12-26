@@ -1,0 +1,60 @@
+.user-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+}
+
+.user-info-holder {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 90px;
+}
+
+.user-info-holder:hover {
+  background-color: #404041;
+  border-radius: 30px;
+}
+
+.utility-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.user-info-holder > h4 {
+  margin-left: 10px;
+  color: white;
+  font-family: Roboto;
+}
+
+.user-info-holder > .MuiAvatar-root {
+  height: 30px;
+  width: 30px;
+  transform: translateX(5px);
+}
+
+.settings-utility {
+  display: flex;
+  flex: 0.5;
+}
+
+.utility-button-icon > .MuiSvgIcon-root {
+  color: white;
+}
+
+.utility-button-icon {
+  border-radius: 100%;
+  background-color: #404041;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.utility-button-icon:hover {
+  background-color: #565656;
+  width: 40px;
+  height: 40px;
+}

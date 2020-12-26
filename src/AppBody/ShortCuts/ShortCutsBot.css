@@ -1,0 +1,20 @@
+.short-cuts-bot-header > span {
+  font-size: 18px;
+  color: #b0b3b8;
+  font-weight: 600;
+  font-family: Helvetica;
+  margin-left: 15px;
+}
+
+.short-cuts-bot-header {
+  height: 30px;
+  width: 365px;
+  margin-top: 13px;
+}
+
+.short-cuts-bot {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-evenly;
+}

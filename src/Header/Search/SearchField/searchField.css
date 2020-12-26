@@ -1,0 +1,40 @@
+.searchField {
+  display: flex;
+  align-items: center;
+  background-color: #3a3b3d;
+  padding: 8px;
+  margin-left: 10px;
+  border-radius: 999px;
+  width: 220px;
+}
+
+.searchField > .MuiSvgIcon-root {
+  color: #b0b3b8;
+  font-size: 23px;
+}
+
+.searchField > input {
+  border: none;
+  background-color: transparent;
+  outline-width: 0;
+  color: #b0b3b8;
+}
+
+.searchField > input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #b0b3b8;
+  opacity: 1; /* Firefox */
+  font-size: 15px;
+}
+
+.searchField > input::-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #b0b3b8;
+  font-size: 15px;
+}
+
+.searchField > input::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #b0b3b8;
+  font-size: 15px;
+}
