@@ -1,0 +1,47 @@
+.story {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 185px;
+  width: 120px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 2px 5px 17px -7px #000000;
+  box-shadow: 0px 10px 13px -7px #000000, 2px 5px 17px -7px #000000;
+  transition: transform 100ms ease-in-out;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.story::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.story:hover {
+  transform: scale(1.05);
+  opacity: 0.6;
+}
+
+.story::before:hover {
+  transform: scale(1.05);
+  opacity: 0.6;
+}
+
+.story-avatar {
+  margin: 10px;
+  border: 5px solid #2e89ff;
+}
+
+.story > h4 {
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+  color: white;
+}

@@ -1,0 +1,134 @@
+.post-message {
+  display: flex;
+  flex-direction: column;
+  background-color: #252526;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.message-bot {
+  display: flex;
+  padding: 3px;
+}
+
+.message-bot-component {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  transition: 0.2s linear;
+}
+
+.message-bot-component:hover {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  background-color: #404041;
+  border-radius: 8px;
+}
+
+.message-bot-component > h3 {
+  color: #b0b3b8;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.message-top {
+  display: flex;
+  padding: 11px;
+}
+
+.message-top > form {
+  width: 98%;
+}
+
+.message-top > form > button {
+  display: none;
+}
+
+.message-top-input {
+  border: none;
+  border-radius: 999px;
+  background-color: #3a3b3d;
+  height: 42px;
+  width: 98%;
+  margin-left: 10px;
+  transform: translateY(-3px);
+}
+
+.message-top-input:hover {
+  background-color: #525354;
+  border: none;
+  border-radius: 999px;
+  height: 42px;
+  width: 98%;
+}
+
+.message-top-input > input {
+  outline-width: 0;
+  border: none;
+  border-radius: 999px;
+  background-color: transparent;
+  padding: 5px 0px;
+  margin-left: 10px;
+  color: #b0b3b8;
+  cursor: pointer;
+  height: 35px;
+  width: 98%;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:-webkit-autofill {
+  -webkit-text-fill-color: #b0b3b8 !important;
+}
+
+/* https://stackoverflow.com/questions/2781549/removing-input-background-colour-for-chrome-autocomplete Nathan White */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #b0b3b8;
+  font-family: Helvetica;
+  opacity: 1; /* Firefox */
+  font-size: 16px;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #b0b3b8;
+  font-family: Helvetica;
+  font-size: 16px;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #b0b3b8;
+  font-family: Helvetica;
+  font-size: 16px;
+}
+
+.message-seperator-holder {
+  height: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.message-seperator {
+  height: 1px;
+  width: 95%;
+  background-color: #404041;
+}

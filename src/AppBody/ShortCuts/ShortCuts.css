@@ -1,4 +1,7 @@
 .short-cuts {
+  display: flex;
+  flex-direction: column;
   transform: translateY(15px);
   overflow-y: auto;
+  flex: 1;
 }

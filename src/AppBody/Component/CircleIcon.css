@@ -1,0 +1,23 @@
+.circle-icon {
+  padding: 5px;
+  position: relative;
+}
+
+.online-circle {
+  position: absolute;
+  display: grid;
+  width: 12px;
+  height: 12px;
+  background-color: #252526;
+  border-radius: 100%;
+  bottom: 5px;
+  right: 5px;
+  place-items: center;
+}
+
+.inner-circle {
+  width: 8px;
+  height: 8px;
+  background-color: #31a24c;
+  border-radius: 100%;
+}
