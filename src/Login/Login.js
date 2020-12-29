@@ -17,7 +17,9 @@ const Login = () => {
           user: result.user,
         });
       })
-      .catch((err) => {});
+      .catch((err) => {
+        console.log(state);
+      });
   };
 
   return (
