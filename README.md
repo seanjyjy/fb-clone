@@ -18,6 +18,6 @@ You can view the progress [here!](https://fb-clone-seanjyjy.netlify.app/)
 
 <p>The only responsive functionality so far is making a post by typing into <code>What is on your mind...</code>. Additionally, you can also add in an image via its URL</p>
 
-<img src="images/MainApp.pg" alt="" />
+<img src="images/MainApp.png" alt="" />
 
 <br/>
