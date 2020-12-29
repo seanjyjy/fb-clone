@@ -5,6 +5,7 @@ import AppBody from "./AppBody/AppBody";
 import Login from "./Login/Login";
 import { useStateValue } from "./StateProvider";
 
+// App logic
 function App() {
   const [{ user }, dispatch] = useStateValue();
   return (
