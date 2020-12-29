@@ -51,12 +51,17 @@
   display: none;
 }
 
+.message-form {
+  display: flex;
+  align-items: center;
+}
+
 .message-top-input {
   border: none;
   border-radius: 999px;
   background-color: #3a3b3d;
   height: 42px;
-  width: 98%;
+  width: 49%;
   margin-left: 10px;
   transform: translateY(-3px);
 }
@@ -66,7 +71,7 @@
   border: none;
   border-radius: 999px;
   height: 42px;
-  width: 98%;
+  width: 49%;
 }
 
 .message-top-input > input {

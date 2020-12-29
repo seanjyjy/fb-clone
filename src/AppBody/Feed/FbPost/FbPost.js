@@ -13,7 +13,7 @@ const FbPost = ({ profileImg, img, name, text, timestamp }) => {
         <Avatar src={profileImg} className="fb-post-top-avatar" />
         <div className="fb-name-time-info">
           <h3>{name}</h3>
-          <p>{timestamp}</p>
+          <p>{new Date(timestamp?.toDate()).toUTCString()}</p>
         </div>
         <MoreHorizOutlinedIcon className="fb-post-top-more" />
       </div>

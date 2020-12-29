@@ -6,13 +6,16 @@ import ArrowDropDownRoundedIcon from "@material-ui/icons/ArrowDropDownRounded";
 import Avatar from "@material-ui/core/Avatar";
 import IconButton from "@material-ui/core/IconButton";
 import "./settingsUtility.css";
+import { useStateValue } from "../../StateProvider";
+
 const SettingsUtility = () => {
+  const [{ user }, dispatch] = useStateValue();
   return (
     <div className="settings-utility">
       <div className="user-info">
         <div className="user-info-holder">
-          <Avatar src="https://avatars1.githubusercontent.com/u/65809727?s=460&u=e8b3f29d1c5eaaf52ed909e6b375250477e37a03&v=4" />
-          <h4>Sean</h4>
+          <Avatar src={user.photoURL} />
+          <h4>{user.displayName}</h4>
         </div>
       </div>
       <div className="utility-buttons">

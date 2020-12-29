@@ -2,10 +2,11 @@ import React, { useState } from "react";
 import ShortCutsRow from "./ShortCutsRow/ShortCutsRow";
 import ExpandMoreSharpIcon from "@material-ui/icons/ExpandMoreSharp";
 import ExpandLessSharpIcon from "@material-ui/icons/ExpandLessSharp";
+import { useStateValue } from "../../StateProvider";
 
 const ShortCutsTop = () => {
+  const [{ user }, dispatch] = useStateValue();
   const [isSeeMore, setIsSeeMore] = useState(false);
-
   const isSeeMoreFalseDataArray = [0, 1, 2, 3, 4];
   const isSeeMoreTrueDataArray = [
     5,
@@ -146,8 +147,8 @@ const ShortCutsTop = () => {
   return (
     <div>
       <ShortCutsRow
-        title={"Sean"}
-        userImgUrl="https://avatars1.githubusercontent.com/u/65809727?s=460&u=e8b3f29d1c5eaaf52ed909e6b375250477e37a03&v=4"
+        title={user.displayName}
+        userImgUrl={user.photoURL}
         fontSize={15}
         fontWeight={600}
       />
