@@ -1,3 +1,69 @@
 .birthday-contact {
+  flex: 0.6;
+}
+
+.birthday > h3 {
+  color: #9a9c9f;
+  padding: 10px 15px;
+}
+
+.contact-header {
+  display: flex;
+}
+
+.contact-holder > h3 {
+  color: #9a9c9f;
+  padding: 10px 15px;
+}
+
+.contact-holder {
+  flex: 2;
+}
+
+.contact-icon-holder {
+  display: flex;
   flex: 1;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contact-icon-holder-holder > .MuiSvgIcon-root {
+  color: #b1b4b8;
+  cursor: pointer;
+}
+
+.contact-icon-holder-holder {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.contact-icon-holder-holder:hover {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: #363737;
+  border-radius: 100%;
+}
+
+.group-conversations > h3 {
+  color: #9a9c9f;
+  padding: 10px 15px;
+}
+
+.group-conversations-icon {
+  border-radius: 100%;
+  background-color: #4c4c4d;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.group-conversations-icon > .MuiSvgIcon-root {
+  color: white;
 }

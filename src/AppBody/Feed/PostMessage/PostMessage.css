@@ -9,7 +9,7 @@
 
 .message-bot {
   display: flex;
-  padding: 3px;
+  height: 100%;
 }
 
 .message-bot-component {
@@ -19,6 +19,7 @@
   justify-content: center;
   margin-bottom: 5px;
   transition: 0.2s linear;
+  padding: 10px;
 }
 
 .message-bot-component:hover {

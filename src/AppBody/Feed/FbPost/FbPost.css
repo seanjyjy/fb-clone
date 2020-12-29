@@ -1,0 +1,85 @@
+p {
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.fb-post {
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: #232626;
+}
+
+.fb-post-top {
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding: 20px;
+  height: 30px;
+}
+
+.fb-post-top-avatar {
+  margin-right: 10px;
+}
+
+.fb-post-top-more {
+  position: absolute;
+  right: 30px;
+  color: #a3a7ab;
+  cursor: pointer;
+}
+
+.fb-post-image > img {
+  width: 100%;
+  height: 50%;
+}
+
+.fb-name-time-info > h3 {
+  font-size: 15px;
+  color: #e3e6ea;
+}
+
+.fb-name-time-info > p {
+  font-size: 13px;
+  color: #b0b3b8;
+}
+.fb-post-text {
+  padding: 15px 25px;
+}
+
+.fb-post-text > p {
+  color: #e3e6ea;
+}
+
+.fb-post-options {
+  border-top: 1px solid gray;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: medium;
+  color: gray;
+  cursor: pointer;
+}
+
+.fb-post-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.fb-post-option > p {
+  margin-left: 10px;
+}
+
+.fb-post-option:hover {
+  background-color: #3a3b3c;
+  border-radius: 10px;
+  height: 100%;
+}

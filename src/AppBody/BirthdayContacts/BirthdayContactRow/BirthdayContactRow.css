@@ -1,0 +1,24 @@
+.birthday-contact-row {
+  display: flex;
+  align-items: center;
+  padding: 2px 15px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  width: 325px;
+  transition: 0.1s ease-out;
+  outline: none;
+  height: 53px;
+}
+
+.birthday-contact-row:hover {
+  border-radius: 10px;
+  background-color: #333434;
+}
+
+.birthday-contact-row > p {
+  color: #e4e6eb;
+  margin-left: 10px;
+  font-weight: 600;
+  font-family: Helvetica;
+}

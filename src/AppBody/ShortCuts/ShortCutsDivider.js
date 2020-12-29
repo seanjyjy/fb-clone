@@ -5,7 +5,7 @@ const ShortCutsDivider = () => {
     <div
       style={{
         height: "10px",
-        width: "365px",
+        width: "325px",
         display: "flex",
         alignItems: "flex-end",
       }}
@@ -13,7 +13,7 @@ const ShortCutsDivider = () => {
       <div
         style={{
           backgroundColor: "#3E4042",
-          width: "340px",
+          width: "300px",
           height: "1px",
           transform: "translateX(10px)",
         }}

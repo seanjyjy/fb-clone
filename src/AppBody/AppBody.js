@@ -8,7 +8,9 @@ const AppBody = () => {
   return (
     <div className="app-body">
       <ShortCuts />
+      <div style={{ flex: 0.2 }} />
       <Feed />
+      <div style={{ flex: 0.2 }} />
       <BirthdayContact />
     </div>
   );

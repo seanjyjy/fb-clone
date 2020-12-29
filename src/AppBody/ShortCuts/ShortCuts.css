@@ -3,5 +3,24 @@
   flex-direction: column;
   transform: translateY(15px);
   overflow-y: auto;
-  flex: 1;
+  flex: 0.6;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #232627; /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6e7070; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 2px solid #232627; /* creates padding around scroll thumb */
+  opacity: 0.6;
 }
