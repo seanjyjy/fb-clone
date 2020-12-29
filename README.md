@@ -3,3 +3,21 @@
 # Learning how to clone popular website
 
 You can view the progress [here!](https://fb-clone-seanjyjy.netlify.app/)
+
+## Features preview
+
+<p align="center"><strong>Login Page</strong></p>
+
+<p>Currently there is only google log in authentication.</p>
+
+<img src="images/Login.png" alt="" />
+
+<br/>
+
+<p align="center"><strong>Main Application</strong></p>
+
+<p>The only responsive functionality so far is making a post by typing into <code>What is on your mind...</code>. Additionally, you can also add in an image via its URL</p>
+
+<img src="images/MainApp.pg" alt="" />
+
+<br/>
